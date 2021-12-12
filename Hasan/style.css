@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("http://images.squarespace-cdn.com/content/v1/55d1552fe4b0be96a30c6337/1555572024013-7BE3ZZN71ESEECOCCUHY/building-protek-247.jpg?format=1500w");
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.424);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+    font-family: system-ui;
+    font-size: 25px;
+    color: rgb(240, 233, 235);
+}
+
+.text {
+    width: 500px;
+    height: 300px;
+}
+
+a {
+    color: rgb(240, 233, 235); 
+    font-family: system-ui;
+    font-size: 30px;  
+    text-decoration: none
+}
